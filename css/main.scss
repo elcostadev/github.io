@@ -148,28 +148,6 @@ body {
             font-size: 30px;
         }
 
-        .button {
-            text-decoration: none;
-            font-weight: normal;
-            transition: 0.5s;
-            font-size: 20px;
-            background: rgba(255, 255, 255, 0.062);
-            text-decoration: none;
-            padding: 10px 15px 10px 15px;
-            border-radius: 10px;
-            color: #E9E9E9;
-            margin-right: 10px;
-
-            &:hover {
-                font-size: 21px;
-                background: rgba(255, 255, 255, 0.116);
-            }
-        }
-
-        .invite {
-            background: #5865F2;
-        }
-
         .xp {
             //display: flex;
             justify-content: center;
@@ -240,7 +218,7 @@ body {
 
             p {
                 margin: 0;
-                margin-bottom: -42px;
+                margin-bottom: -23px;
                 margin-top: -7px;
                 font-family: MadeTommyLight;
                 font-size: 23px;
@@ -256,7 +234,7 @@ body {
                 //font-family: MadeTommyLight;
                 font-weight: normal;
                 transition: 0.5s;
-                font-size: 15px;
+                font-size: 18px;
                 background: rgba(255, 255, 255, 0.062);
                 text-decoration: none;
                 padding: 10px 15px 10px 15px;
@@ -265,14 +243,14 @@ body {
                 margin-right: 10px;
 
                 &:hover {
-                    font-size: 16px;
+                    font-size: 19px;
                     background: #5865F2;
                 }
             }
 
             .disabled {
                 font-weight: normal;
-                font-size: 15px;
+                font-size: 18px;
                 background: rgba(255, 255, 255, 0.034);
                 text-decoration: none;
                 padding: 10px 15px 10px 15px;
@@ -281,7 +259,7 @@ body {
                 cursor: not-allowed;
 
                 &:hover {
-                    font-size: 16px;
+                    font-size: 19px;
                     background: rgba(255, 255, 255, 0.034);
                 }
             }
@@ -337,32 +315,6 @@ body {
         &:hover {
             font-size: 20px;
             background: rgba(255, 255, 255, 0.034);
-        }
-    }
-
-    .hero .button {
-        text-decoration: none;
-        font-weight: normal;
-        transition: 0.5s;
-        font-size: 25px;
-        background: rgba(255, 255, 255, 0.062);
-        text-decoration: none;
-        padding: 10px 15px 10px 15px;
-        border-radius: 10px;
-        color: #E9E9E9;
-        margin-right: 10px;
-
-        &:hover {
-            font-size: 26px;
-            background: rgba(255, 255, 255, 0.116);
-        }
-    }
-
-    .hero .invite {
-        background: #5865F2;
-
-        &:hover {
-            background: #616ef3;
         }
     }
 }
@@ -579,36 +531,6 @@ body {
             margin-bottom: 100px;
         }
 
-    }
-
-    .features {
-        margin-top: 110px;
-        background: #1B1E29;
-
-        .card-projects {
-            list-style: none;
-            width: 100px;
-            background: #1b2925;
-            border-radius: 15px;
-            padding: 30px;
-            align-items: center;
-            font-size: 30px;
-            text-align: left;
-            padding-bottom: 35px;
-            margin-bottom: 25px;
-
-            .proj-title {
-                margin-bottom: -20px;
-            }
-
-            p {
-                margin: 0;
-                margin-bottom: -23px;
-                margin-top: -7px;
-                font-family: MadeTommyLight;
-                font-size: 23px;
-            }
-        }
     }
 
     .credits {

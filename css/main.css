@@ -139,26 +139,6 @@ body {
     color: #E9E9E9;
     font-size: 30px;
   }
-  .hero .button {
-    text-decoration: none;
-    font-weight: normal;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    font-size: 20px;
-    background: rgba(255, 255, 255, 0.062);
-    text-decoration: none;
-    padding: 10px 15px 10px 15px;
-    border-radius: 10px;
-    color: #E9E9E9;
-    margin-right: 10px;
-  }
-  .hero .button:hover {
-    font-size: 21px;
-    background: rgba(255, 255, 255, 0.116);
-  }
-  .hero .invite {
-    background: #5865F2;
-  }
   .hero .xp {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
@@ -232,7 +212,7 @@ body {
   }
   .hero .card-projects p {
     margin: 0;
-    margin-bottom: -42px;
+    margin-bottom: -23px;
     margin-top: -7px;
     font-family: MadeTommyLight;
     font-size: 23px;
@@ -246,7 +226,7 @@ body {
     font-weight: normal;
     -webkit-transition: 0.5s;
     transition: 0.5s;
-    font-size: 15px;
+    font-size: 18px;
     background: rgba(255, 255, 255, 0.062);
     text-decoration: none;
     padding: 10px 15px 10px 15px;
@@ -255,12 +235,12 @@ body {
     margin-right: 10px;
   }
   .hero .card-projects .check:hover {
-    font-size: 16px;
+    font-size: 19px;
     background: #5865F2;
   }
   .hero .card-projects .disabled {
     font-weight: normal;
-    font-size: 15px;
+    font-size: 18px;
     background: rgba(255, 255, 255, 0.034);
     text-decoration: none;
     padding: 10px 15px 10px 15px;
@@ -269,7 +249,7 @@ body {
     cursor: not-allowed;
   }
   .hero .card-projects .disabled:hover {
-    font-size: 16px;
+    font-size: 19px;
     background: rgba(255, 255, 255, 0.034);
   }
   .credits {
@@ -316,29 +296,6 @@ body {
   .hero .card-projects .disabled:hover {
     font-size: 20px;
     background: rgba(255, 255, 255, 0.034);
-  }
-  .hero .button {
-    text-decoration: none;
-    font-weight: normal;
-    -webkit-transition: 0.5s;
-    transition: 0.5s;
-    font-size: 25px;
-    background: rgba(255, 255, 255, 0.062);
-    text-decoration: none;
-    padding: 10px 15px 10px 15px;
-    border-radius: 10px;
-    color: #E9E9E9;
-    margin-right: 10px;
-  }
-  .hero .button:hover {
-    font-size: 26px;
-    background: rgba(255, 255, 255, 0.116);
-  }
-  .hero .invite {
-    background: #5865F2;
-  }
-  .hero .invite:hover {
-    background: #616ef3;
   }
 }
 
@@ -544,34 +501,6 @@ body {
   }
   .hero .last {
     margin-bottom: 100px;
-  }
-  .features {
-    margin-top: 110px;
-    background: #1B1E29;
-  }
-  .features .card-projects {
-    list-style: none;
-    width: 100px;
-    background: #1b2925;
-    border-radius: 15px;
-    padding: 30px;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    font-size: 30px;
-    text-align: left;
-    padding-bottom: 35px;
-    margin-bottom: 25px;
-  }
-  .features .card-projects .proj-title {
-    margin-bottom: -20px;
-  }
-  .features .card-projects p {
-    margin: 0;
-    margin-bottom: -23px;
-    margin-top: -7px;
-    font-family: MadeTommyLight;
-    font-size: 23px;
   }
   .credits {
     visibility: visible;
