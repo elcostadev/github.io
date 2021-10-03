@@ -290,13 +290,80 @@ body {
     }
 
     .features {
-        margin-top: 100px;
-        padding: 20px;
+        margin-top: 110px;
         text-align: center;
-        cursor: default;
-        color: #E9E9E9;
-        font-size: 40px;
-        background: #1B1E29;
+        padding: 0;
+
+        .feature-title {
+            font-family: MadeTommy;
+            font-size: 50px;;
+            //background: #5865F2;
+            padding-left: 4px;
+            padding-right: 4px;
+            background-size: 200px;
+            box-shadow:
+                inset 0px -20px #5865F2;
+                //inset 0 -0.2em #000;
+            display: inline;
+            line-height: 80px;
+        }
+
+        .feature-block-first {
+            padding-top: 100px;
+            padding-bottom: 100px;
+            background: #1B1E29;
+        }
+
+        .feature-img-first {
+            width: 400px;
+            vertical-align: middle;
+            padding-bottom: 60px;
+        }
+
+        .feature-text-first {
+            font-family: MadeTommyLight;
+            font-size: 30px;
+            text-align: center;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .feature-block-second {
+            padding-top: 100px;
+            padding-bottom: 100px;
+            background: #161821;
+            //background: #1B1E29;
+        }
+
+        .feature-img-second {
+            //width: 600px;
+            vertical-align: middle;
+        }
+
+        .feature-text-second {
+            font-family: MadeTommyLight;
+            font-size: 30px;
+            text-align: center;
+            display: inline-block;
+            vertical-align: middle;
+            padding-bottom: 60px;
+        }
+        
+        .ez {
+            width: 400px;
+        }
+
+        .profiles {
+            width: 450px;
+        }
+
+        .leaderboards {
+            width: 350px;
+        }
+
+        .xp {
+            width: 400px;
+        }
     }
 
     .credits {
@@ -589,6 +656,86 @@ body {
             margin-bottom: 100px;
         }
 
+    }
+
+    .features {
+        margin-top: 110px;
+        text-align: center;
+        padding: 0;
+
+        .feature-title {
+            font-family: MadeTommy;
+            font-size: 50px;;
+            //background: #5865F2;
+            padding-left: 4px;
+            padding-right: 4px;
+            background-size: 200px;
+            box-shadow:
+                inset 0px -20px #5865F2;
+                //inset 0 -0.2em #000;
+            display: inline;
+            line-height: 80px;
+        }
+
+        .feature-block-first {
+            padding-top: 150px;
+            padding-bottom: 150px;
+            background: #1B1E29;
+        }
+
+        .feature-img-first {
+            //width: 600px;
+            vertical-align: middle;
+            padding-right: 90px;
+        }
+
+        .feature-text-first {
+            font-family: MadeTommyLight;
+            font-size: 30px;
+            text-align: right;
+            display: inline-block;
+            vertical-align: middle;
+            padding-left: 60px;
+            padding-right: 90px;
+        }
+
+        .feature-block-second {
+            padding-top: 150px;
+            padding-bottom: 150px;
+            background: #161821;
+            //background: #1B1E29;
+        }
+
+        .feature-img-second {
+            //width: 600px;
+            vertical-align: middle;
+            padding-left: 90px;
+        }
+
+        .feature-text-second {
+            font-family: MadeTommyLight;
+            font-size: 30px;
+            text-align: left;
+            display: inline-block;
+            vertical-align: middle;
+            padding-right: 60px;
+        }
+        
+        .ez {
+            width: 500px;
+        }
+
+        .profiles {
+            width: 550px;
+        }
+
+        .leaderboards {
+            width: 450px;
+        }
+
+        .xp {
+            width: 500px;
+        }
     }
 
     .credits {

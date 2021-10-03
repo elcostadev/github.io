@@ -273,13 +273,65 @@ body {
     background: rgba(255, 255, 255, 0.034);
   }
   .features {
-    margin-top: 100px;
-    padding: 20px;
+    margin-top: 110px;
     text-align: center;
-    cursor: default;
-    color: #E9E9E9;
-    font-size: 40px;
+    padding: 0;
+  }
+  .features .feature-title {
+    font-family: MadeTommy;
+    font-size: 50px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-size: 200px;
+    -webkit-box-shadow: inset 0px -20px #5865F2;
+            box-shadow: inset 0px -20px #5865F2;
+    display: inline;
+    line-height: 80px;
+  }
+  .features .feature-block-first {
+    padding-top: 100px;
+    padding-bottom: 100px;
     background: #1B1E29;
+  }
+  .features .feature-img-first {
+    width: 400px;
+    vertical-align: middle;
+    padding-bottom: 60px;
+  }
+  .features .feature-text-first {
+    font-family: MadeTommyLight;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+  }
+  .features .feature-block-second {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: #161821;
+  }
+  .features .feature-img-second {
+    vertical-align: middle;
+  }
+  .features .feature-text-second {
+    font-family: MadeTommyLight;
+    font-size: 30px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+    padding-bottom: 60px;
+  }
+  .features .ez {
+    width: 400px;
+  }
+  .features .profiles {
+    width: 450px;
+  }
+  .features .leaderboards {
+    width: 350px;
+  }
+  .features .xp {
+    width: 400px;
   }
   .credits {
     visibility: visible;
@@ -553,6 +605,69 @@ body {
   }
   .hero .last {
     margin-bottom: 100px;
+  }
+  .features {
+    margin-top: 110px;
+    text-align: center;
+    padding: 0;
+  }
+  .features .feature-title {
+    font-family: MadeTommy;
+    font-size: 50px;
+    padding-left: 4px;
+    padding-right: 4px;
+    background-size: 200px;
+    -webkit-box-shadow: inset 0px -20px #5865F2;
+            box-shadow: inset 0px -20px #5865F2;
+    display: inline;
+    line-height: 80px;
+  }
+  .features .feature-block-first {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: #1B1E29;
+  }
+  .features .feature-img-first {
+    vertical-align: middle;
+    padding-right: 90px;
+  }
+  .features .feature-text-first {
+    font-family: MadeTommyLight;
+    font-size: 30px;
+    text-align: right;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 60px;
+    padding-right: 90px;
+  }
+  .features .feature-block-second {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    background: #161821;
+  }
+  .features .feature-img-second {
+    vertical-align: middle;
+    padding-left: 90px;
+  }
+  .features .feature-text-second {
+    font-family: MadeTommyLight;
+    font-size: 30px;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+    padding-right: 60px;
+  }
+  .features .ez {
+    width: 500px;
+  }
+  .features .profiles {
+    width: 550px;
+  }
+  .features .leaderboards {
+    width: 450px;
+  }
+  .features .xp {
+    width: 500px;
   }
   .credits {
     visibility: visible;
