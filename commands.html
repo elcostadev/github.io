@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
     <meta property="og:site_name" content="Discord Bot">
-    <meta property="og:url" content="https://3tbot.xyz">
-    <meta property="og:title" content="Hey I'm 3T">
-    <meta property="og:description" content="The best way to play Tic-Tac-Toe on Discord!">
+    <meta property="og:url" content="https://3tbot.xyz/commands">
+    <meta property="og:title" content="Commands">
     <meta property="og:type" content="website">
     <meta name="og:image" itemprop="image" content="https://i.imgur.com/R1GlPEs.png">
     <meta name="theme-color" content="#5865F2">
@@ -12,7 +11,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>3T • Home</title>
+    <title>3T • Commands</title>
     <link rel="icon" href="imgs/logo.png">
     <link rel="stylesheet" href="css/main.css">
     <script src="https://kit.fontawesome.com/9936de1e52.js" crossorigin="anonymous"></script>
@@ -23,13 +22,13 @@
         <ul>
             <li>
                 <div>
-                    <a id="home" class="active icon" href="https://3tbot.xyz" onmouseover="turnOn(this)" onmouseout="turnOff(this)"><ion-icon name="home"></ion-icon></a>
+                    <a id="home" class="default icon" href="https://3tbot.xyz" onmouseover="turnOn(this)" onmouseout="turnOff(this)"><ion-icon name="home"></ion-icon></a>
                     <a id="1" class="text off2">Home</a>
                 </div>
             </li>
             <li>
                 <div>
-                    <a id="commands" class="default icon" href="#" onmouseover="turnOn(this)" onmouseout="turnOff(this)"><ion-icon name="book"></ion-icon></a>
+                    <a id="commands" class="active icon" href="#" onmouseover="turnOn(this)" onmouseout="turnOff(this)"><ion-icon name="book"></ion-icon></a>
                     <a id="2" class="text off2">Commands</a>
                 </div>
             </li>
@@ -37,10 +36,17 @@
     </div>
     <div class="hero">
         <img class="logo" src="imgs/logo2.png">
-        <p class="title">Hey I'm 3T</p>
-        <p class="des">The best way to play Tic-Tac-Toe on Discord!</p>
-        <a class="button invite" href="https://discord.com/api/oauth2/authorize?client_id=868176253713272832&permissions=388096&redirect_uri=https%3A%2F%2Fdiscord.gg%2Fh9ftzSABPA&scope=bot%20applications.commands" target="_blank">Invite 3T</a>
-        <a class="button" href="https://discord.gg/h9ftzSABPA" target="_blank">Support</a>
+        <p class="title">Commands</p>
+        <div class="xp3">
+            <ul>
+                <li class="card-projects"><div class="proj-title">/help</div><br><p class="proj-des">Get help with 3T</p><br></li>
+                <li class="card-projects"><div class="proj-title">/play</div><br><p class="proj-des">Start a Tic-Tac-Toe game with another user</p><br></li>
+                <li class="card-projects"><div class="proj-title">/practice</div><br><p class="proj-des">Practice Tic-Tac-Toe against 3T</p><br></li>
+                <li class="card-projects"><div class="proj-title">/profile</div><br><p class="proj-des">Check your Stats & Replay Matches</p><br></li>
+                <li class="card-projects"><div class="proj-title">/leaderboard</div><br><p class="proj-des">Check who is the Best 3T Player</p><br></li>
+                <li class="card-projects last"><div class="proj-title">/info</div><br><p class="proj-des">Get 3T stats</p><br></li>
+            </ul>
+        </div>
     </div>
 
     <script>
