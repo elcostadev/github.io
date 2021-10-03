@@ -576,22 +576,18 @@ body {
   .credits {
     visibility: visible;
     font-family: MadeTommyLight;
-    font-size: 14px;
+    font-size: 16px;
     position: fixed;
     text-align: center;
     bottom: 15px;
     width: 100%;
     cursor: default;
   }
-  .credits2 {
-    visibility: visible;
-    font-family: MadeTommyLight;
-    font-size: 14px;
-    position: fixed;
-    text-align: center;
-    bottom: 15px;
-    width: 100%;
-    cursor: default;
+  .credits a {
+    text-decoration: none;
+    color: #5865F2;
+    font-family: MadeTommy;
+    font-size: 21px;
   }
 }
 /*# sourceMappingURL=main.css.map */
