@@ -296,7 +296,7 @@ body {
 
         .feature-title {
             font-family: MadeTommy;
-            font-size: 50px;;
+            font-size: 40px;;
             //background: #5865F2;
             padding-left: 4px;
             padding-right: 4px;
@@ -305,7 +305,7 @@ body {
                 inset 0px -20px #5865F2;
                 //inset 0 -0.2em #000;
             display: inline;
-            line-height: 80px;
+            line-height: 70px;
         }
 
         .feature-block-first {
@@ -322,7 +322,7 @@ body {
 
         .feature-text-first {
             font-family: MadeTommyLight;
-            font-size: 30px;
+            font-size: 25px;
             text-align: center;
             display: inline-block;
             vertical-align: middle;
@@ -342,7 +342,7 @@ body {
 
         .feature-text-second {
             font-family: MadeTommyLight;
-            font-size: 30px;
+            font-size: 25px;
             text-align: center;
             display: inline-block;
             vertical-align: middle;
@@ -350,19 +350,19 @@ body {
         }
         
         .ez {
-            width: 400px;
-        }
-
-        .profiles {
-            width: 450px;
-        }
-
-        .leaderboards {
             width: 350px;
         }
 
+        .profiles {
+            width: 350px;
+        }
+
+        .leaderboards {
+            width: 300px;
+        }
+
         .xp {
-            width: 400px;
+            width: 300px;
         }
     }
 
