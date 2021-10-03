@@ -272,67 +272,6 @@ body {
     font-size: 16px;
     background: rgba(255, 255, 255, 0.034);
   }
-  .features {
-    margin-top: 110px;
-    text-align: center;
-    padding: 0;
-  }
-  .features .feature-title {
-    font-family: MadeTommy;
-    font-size: 40px;
-    padding-left: 4px;
-    padding-right: 4px;
-    background-size: 200px;
-    -webkit-box-shadow: inset 0px -20px #5865F2;
-            box-shadow: inset 0px -20px #5865F2;
-    display: inline;
-    line-height: 70px;
-  }
-  .features .feature-block-first {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background: #1B1E29;
-  }
-  .features .feature-img-first {
-    width: 400px;
-    vertical-align: middle;
-    padding-bottom: 60px;
-  }
-  .features .feature-text-first {
-    font-family: MadeTommyLight;
-    font-size: 25px;
-    text-align: center;
-    display: inline-block;
-    vertical-align: middle;
-  }
-  .features .feature-block-second {
-    padding-top: 100px;
-    padding-bottom: 100px;
-    background: #161821;
-  }
-  .features .feature-img-second {
-    vertical-align: middle;
-  }
-  .features .feature-text-second {
-    font-family: MadeTommyLight;
-    font-size: 25px;
-    text-align: center;
-    display: inline-block;
-    vertical-align: middle;
-    padding-bottom: 60px;
-  }
-  .features .ez {
-    width: 350px;
-  }
-  .features .profiles {
-    width: 350px;
-  }
-  .features .leaderboards {
-    width: 300px;
-  }
-  .features .xp {
-    width: 300px;
-  }
   .credits {
     visibility: visible;
     font-family: MadeTommyLight;
@@ -608,66 +547,31 @@ body {
   }
   .features {
     margin-top: 110px;
-    text-align: center;
-    padding: 0;
-  }
-  .features .feature-title {
-    font-family: MadeTommy;
-    font-size: 50px;
-    padding-left: 4px;
-    padding-right: 4px;
-    background-size: 200px;
-    -webkit-box-shadow: inset 0px -20px #5865F2;
-            box-shadow: inset 0px -20px #5865F2;
-    display: inline;
-    line-height: 80px;
-  }
-  .features .feature-block-first {
-    padding-top: 150px;
-    padding-bottom: 150px;
     background: #1B1E29;
   }
-  .features .feature-img-first {
-    vertical-align: middle;
-    padding-right: 90px;
-  }
-  .features .feature-text-first {
-    font-family: MadeTommyLight;
-    font-size: 30px;
-    text-align: right;
-    display: inline-block;
-    vertical-align: middle;
-    padding-left: 60px;
-    padding-right: 90px;
-  }
-  .features .feature-block-second {
-    padding-top: 150px;
-    padding-bottom: 150px;
-    background: #161821;
-  }
-  .features .feature-img-second {
-    vertical-align: middle;
-    padding-left: 90px;
-  }
-  .features .feature-text-second {
-    font-family: MadeTommyLight;
+  .features .card-projects {
+    list-style: none;
+    width: 100px;
+    background: #1b2925;
+    border-radius: 15px;
+    padding: 30px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
     font-size: 30px;
     text-align: left;
-    display: inline-block;
-    vertical-align: middle;
-    padding-right: 60px;
+    padding-bottom: 35px;
+    margin-bottom: 25px;
   }
-  .features .ez {
-    width: 500px;
+  .features .card-projects .proj-title {
+    margin-bottom: -20px;
   }
-  .features .profiles {
-    width: 550px;
-  }
-  .features .leaderboards {
-    width: 450px;
-  }
-  .features .xp {
-    width: 500px;
+  .features .card-projects p {
+    margin: 0;
+    margin-bottom: -23px;
+    margin-top: -7px;
+    font-family: MadeTommyLight;
+    font-size: 23px;
   }
   .credits {
     visibility: visible;
